@@ -1,0 +1,13 @@
+.app-container {
+  overflow-x: hidden;
+}
+.root-app a {
+  color: white;
+  text-decoration: none;
+}
+@media (max-width: 720px) {
+  .root-app {
+    width: 500px;
+    display: flex;
+  }
+}
